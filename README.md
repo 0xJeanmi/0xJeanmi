@@ -24,19 +24,18 @@ class Developer implements JeanOrtega {
   currentRole = "Backend Developer";
   previousLife = "✈️ Airline Pilot";
   languages = ["Spanish (Native)", "English (Professional)"];
-  passion = ["AI 🤖", "Blockchain ⛓️"];
+  passion = ["AI 🤖"];
   
   getSkills(): Record<string, string[]> {
     return {
       backend: ["PHP", "JavaScript/TypeScript", "Python", "Go"],
-      ai: ["LangChain", "LangGraph", "OpenAI API", "Anthropic", "Google AI"],
-      web3: ["Smart Contracts", "Blockchain Integration", "DeFi"],
+      ai: ["LangChain", "LangGraph", "OpenAI API", "Anthropic", "Google AI", "Vercel AI Gateway"],
       other: ["MCP (Model Context Protocol)", "API Integration", "Startups"]
     };
   }
   
   getExperience(): string {
-    return "4+ years building solutions for startups of all sizes";
+    return "5+ years building solutions";
   }
 }
 ```
@@ -59,42 +58,9 @@ class Developer implements JeanOrtega {
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-8B5CF6?style=for-the-badge)
 ![Google AI](https://img.shields.io/badge/Google_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-### Web3 & Blockchain
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
-
----
-
-## 🎯 What I Do
-
-<table>
-<tr>
-<td width="50%">
-
-### 🤖 AI Development (Expert)
-- **LangChain & LangGraph** expert
-- **Custom AI agents** development
-- **MCP (Model Context Protocol)** implementation
-- **Multi-AI API** integration (OpenAI, Anthropic, Google AI)
-- **Intelligent automation** solutions
-
-</td>
-<td width="50%">
-
-### 🌐 Web3 & Blockchain (Learning)
-- **Smart contracts** basics
-- **Blockchain integration** exploration
-- **DeFi protocols** understanding
-- **Crypto trading** interest
-- **Web3 ecosystem** research
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -106,31 +72,16 @@ Journey:
   To: "💻 Backend Developer navigating code"
   
 Experience:
-  - "4+ years in startup ecosystem"
+  - "5+ years in startup ecosystem"
   - "Multiple successful projects delivered"
-  - "Expert in AI technologies, exploring Web3"
+  - "Expert in AI technologies"
   
 Specialties:
   - "Building AI agents that think and act"
-  - "Exploring blockchain and Web3 ecosystem"
+  - "Building robust backends"
   - "Integrating cutting-edge AI APIs"
   - "Developing MCP protocols"
 ```
-
----
-
-## 🌟 Featured Projects
-
-<div align="center">
-  
-| 🤖 AI Agents | 🌐 Web3 Learning | 🔗 API Integrations |
-|:---:|:---:|:---:|
-| *LangChain powered* | *Smart contract exploration* | *Multi-AI platform* |
-| *Intelligent automation* | *DeFi research* | *Seamless integration* |
-
-</div>
-
----
 
 ## 🌍 Let's Connect
 
@@ -160,21 +111,15 @@ type CurrentStatus struct {
 
 func main() {
     jean := CurrentStatus{
-        Interests:    []string{"AI Innovation", "Web3 Learning", "Crypto Exploration"},
-        CurrentFocus: "Mastering AI development while exploring Web3 opportunities",
-        LookingFor:   "Opportunities in AI and entry-level positions in Crypto/Web3",
+        Interests:    []string{"AI Innovation", "Crypto Exploration"},
+        CurrentFocus: "Mastering AI development and building things",
+        LookingFor:   "<Reserved>",
         FunFact:      "From flying planes to flying code! ✈️➡️💻",
     }
     
     fmt.Printf("Ready to contribute: %+v\n", jean)
 }
 ```
-
----
-
-<div align="center">
-  <i>⭐ From Venezuela to the world, one line of code at a time</i>
-</div>
 
 ---
 
